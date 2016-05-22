@@ -8,12 +8,12 @@ function draw(id){
     context.fillRect(0, 0, 400, 400);
 
     for (var i= 0;i<10;i++) {
-        context.beginPath();
+        //context.beginPath();
         context.arc(i*20, i*20, i*10, 0, Math.PI * 2, true);
-        context.closePath();
+        //context.closePath();
         context.fillStyle = "rgba(255,0,0,0.25)";
         context.fill();
-        context.strokeStyle = "red";
-        context.stroke()
+        //context.strokeStyle = "red";
+        //context.stroke()
     }
 }
