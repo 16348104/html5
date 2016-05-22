@@ -7,7 +7,7 @@ function draw(id){
     context.fillStyle = "#f1f2f3";
     context.fillRect(0, 0, 400, 400);
 
-    for (var i= 0;i<10;i++) {
+    for (var i= 0;i<11;i++) {
         //context.beginPath();
         context.arc(i*20, i*20, i*10, 0, Math.PI * 2, true);
         //context.closePath();
